@@ -1,6 +1,2 @@
-var getTrack = (...args) => {
-  console.log(args);
-  return args[0] + ' ' + args[1];
-}
-
-console.log(getTrack('Artist', 'Track'));
+import * as math from './math';
+console.log(math.addTwo(1, 2), math.multiplyTwo(1, 2));
